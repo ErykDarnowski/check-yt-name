@@ -8,7 +8,7 @@ import urllib.request
 # *it's better to check for a smaller piece than a more complex one
 # as there's a much higher chance of getting it
 string_to_check_for = "air"
-input_filename = 'data.txt' # <- yt / yt short links separated by `\n`
+input_filename = 'input.txt' # <- yt / yt short links separated by `\n`
 
 every_wait = 0.5 # <- wait in s between every req
 bunch_wait = 5   # <- wait in s between 15 req
